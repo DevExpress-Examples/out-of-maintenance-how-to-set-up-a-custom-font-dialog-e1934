@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0573E96C-883D-45B2-BD2F-39BC9F4E3B40}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>HtmlEditorCustomFontDialog</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Web.ASPxEditors.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Web.ASPxHtmlEditor.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Web.ASPxSpellChecker.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v9.2, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.Web.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v9.2.Core, Version=9.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>c:\Projects\Test_Examples\TestFolder\Assemblies\Dlls\9.2.9\DevExpress.XtraSpellChecker.v9.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="i\OpenCustomFontDialog.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx.designer.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx" />
+    <Content Include="UserControls\CustomFontDialog.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx.designer.vb" />
+    <Compile Include="UserControls\CustomFontDialog.ascx.vb">
+      <DependentUpon>CustomFontDialog.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\CustomFontDialog.ascx.designer.vb">
+      <DependentUpon>CustomFontDialog.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3436</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl></IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
