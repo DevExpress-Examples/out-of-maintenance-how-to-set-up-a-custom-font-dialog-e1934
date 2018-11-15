@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Default.aspx](./CS/HtmlEditorCustomFontDialog/Default.aspx) (VB: [Default.aspx](./VB/HtmlEditorCustomFontDialog/Default.aspx))
+* [Default.aspx.cs](./CS/HtmlEditorCustomFontDialog/Default.aspx.cs) (VB: [Default.aspx](./VB/HtmlEditorCustomFontDialog/Default.aspx))
+* [CustomFontDialog.ascx](./CS/HtmlEditorCustomFontDialog/UserControls/CustomFontDialog.ascx) (VB: [CustomFontDialog.ascx](./VB/HtmlEditorCustomFontDialog/UserControls/CustomFontDialog.ascx))
+* [CustomFontDialog.ascx.cs](./CS/HtmlEditorCustomFontDialog/UserControls/CustomFontDialog.ascx.cs) (VB: [CustomFontDialog.ascx](./VB/HtmlEditorCustomFontDialog/UserControls/CustomFontDialog.ascx))
+<!-- default file list end -->
 # How to set up a custom font dialog
 
 
