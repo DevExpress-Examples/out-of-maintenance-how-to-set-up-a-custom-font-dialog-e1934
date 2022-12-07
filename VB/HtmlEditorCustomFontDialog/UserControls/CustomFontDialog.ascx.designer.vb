@@ -29,7 +29,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected pcCustomFontDialog As Global.DevExpress.Web.ASPxPopupControl.ASPxPopupControl
+		Protected pcCustomFontDialog As Global.DevExpress.Web.ASPxPopupControl
 
 		''' <summary>
 		''' hf control.
@@ -38,7 +38,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected hf As Global.DevExpress.Web.ASPxHiddenField.ASPxHiddenField
+		Protected hf As Global.DevExpress.Web.ASPxHiddenField
 
 		''' <summary>
 		''' cmbFontName control.
@@ -47,7 +47,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected cmbFontName As Global.DevExpress.Web.ASPxEditors.ASPxComboBox
+		Protected cmbFontName As Global.DevExpress.Web.ASPxComboBox
 
 		''' <summary>
 		''' spnFontSize control.
@@ -56,7 +56,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected spnFontSize As Global.DevExpress.Web.ASPxEditors.ASPxSpinEdit
+		Protected spnFontSize As Global.DevExpress.Web.ASPxSpinEdit
 
 		''' <summary>
 		''' clrFontColor control.
@@ -65,7 +65,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected clrFontColor As Global.DevExpress.Web.ASPxEditors.ASPxColorEdit
+		Protected clrFontColor As Global.DevExpress.Web.ASPxColorEdit
 
 		''' <summary>
 		''' btnOK control.
@@ -74,7 +74,7 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected btnOK As Global.DevExpress.Web.ASPxEditors.ASPxButton
+		Protected btnOK As Global.DevExpress.Web.ASPxButton
 
 		''' <summary>
 		''' btnCancel control.
@@ -83,6 +83,6 @@ Namespace HtmlEditorCustomFontDialog.UserControls
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected btnCancel As Global.DevExpress.Web.ASPxEditors.ASPxButton
+		Protected btnCancel As Global.DevExpress.Web.ASPxButton
 	End Class
 End Namespace

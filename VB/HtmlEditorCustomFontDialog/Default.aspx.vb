@@ -1,7 +1,6 @@
 Imports Microsoft.VisualBasic
 Imports System
-Imports DevExpress.Web.ASPxClasses
-Imports DevExpress.Web.ASPxCallbackPanel
+Imports DevExpress.Web
 Imports HtmlEditorCustomFontDialog.UserControls
 
 Namespace HtmlEditorCustomFontDialog

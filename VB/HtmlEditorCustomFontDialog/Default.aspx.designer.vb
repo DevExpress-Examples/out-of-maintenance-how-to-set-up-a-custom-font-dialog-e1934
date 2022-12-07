@@ -47,6 +47,6 @@ Namespace HtmlEditorCustomFontDialog
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected cpCustomFontDialogContainer As Global.DevExpress.Web.ASPxCallbackPanel.ASPxCallbackPanel
+		Protected cpCustomFontDialogContainer As Global.DevExpress.Web.ASPxCallbackPanel
 	End Class
 End Namespace

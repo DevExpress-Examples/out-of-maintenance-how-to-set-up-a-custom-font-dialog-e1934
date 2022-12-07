@@ -26,7 +26,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxPopupControl.ASPxPopupControl pcCustomFontDialog;
+        protected global::DevExpress.Web.ASPxPopupControl pcCustomFontDialog;
         
         /// <summary>
         /// hf control.
@@ -35,7 +35,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxHiddenField.ASPxHiddenField hf;
+        protected global::DevExpress.Web.ASPxHiddenField hf;
         
         /// <summary>
         /// cmbFontName control.
@@ -44,7 +44,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cmbFontName;
+        protected global::DevExpress.Web.ASPxComboBox cmbFontName;
         
         /// <summary>
         /// spnFontSize control.
@@ -53,7 +53,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxSpinEdit spnFontSize;
+        protected global::DevExpress.Web.ASPxSpinEdit spnFontSize;
         
         /// <summary>
         /// clrFontColor control.
@@ -62,7 +62,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxColorEdit clrFontColor;
+        protected global::DevExpress.Web.ASPxColorEdit clrFontColor;
         
         /// <summary>
         /// btnOK control.
@@ -71,7 +71,7 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOK;
+        protected global::DevExpress.Web.ASPxButton btnOK;
         
         /// <summary>
         /// btnCancel control.
@@ -80,6 +80,6 @@ namespace HtmlEditorCustomFontDialog.UserControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+        protected global::DevExpress.Web.ASPxButton btnCancel;
     }
 }

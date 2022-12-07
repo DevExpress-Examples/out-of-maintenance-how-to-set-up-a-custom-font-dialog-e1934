@@ -1,6 +1,5 @@
 using System;
-using DevExpress.Web.ASPxClasses;
-using DevExpress.Web.ASPxCallbackPanel;
+using DevExpress.Web;
 using HtmlEditorCustomFontDialog.UserControls;
 
 namespace HtmlEditorCustomFontDialog {

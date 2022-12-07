@@ -25,7 +25,7 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxPanel.ASPxPanel MainPanel;
+    protected global::DevExpress.Web.ASPxPanel MainPanel;
     
     /// <summary>
     /// PanelContent1 control.
@@ -34,7 +34,7 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxPanel.PanelContent PanelContent1;
+    protected global::DevExpress.Web.PanelContent PanelContent1;
     
     /// <summary>
     /// lblDescription control.
@@ -43,7 +43,7 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxLabel lblDescription;
+    protected global::DevExpress.Web.ASPxLabel lblDescription;
     
     /// <summary>
     /// ckbStripFont control.
@@ -52,7 +52,7 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox ckbStripFont;
+    protected global::DevExpress.Web.ASPxCheckBox ckbStripFont;
     
     /// <summary>
     /// btnOk control.
@@ -61,7 +61,7 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOk;
+    protected global::DevExpress.Web.ASPxButton btnOk;
     
     /// <summary>
     /// btnCancel control.
@@ -70,5 +70,5 @@ public partial class PasteFromWordForm {
     /// Auto-generated field.
     /// To modify move field declaration from designer file to code-behind file.
     /// </remarks>
-    protected global::DevExpress.Web.ASPxEditors.ASPxButton btnCancel;
+    protected global::DevExpress.Web.ASPxButton btnCancel;
 }
